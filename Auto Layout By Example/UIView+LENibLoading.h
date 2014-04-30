@@ -10,7 +10,7 @@
 
 @interface UIView (LENibLoading)
 
-- (void)ft_loadFromNib;
-- (void)ft_loadFromNibWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle;
+- (void)le_loadFromNib;
+- (void)le_loadFromNibWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle;
 
 @end

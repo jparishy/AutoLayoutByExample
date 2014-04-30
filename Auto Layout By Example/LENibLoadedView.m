@@ -33,7 +33,7 @@
 - (void)initializeSubviews
 {
     self.translatesAutoresizingMaskIntoConstraints = NO;
-    [self ft_loadFromNib];
+    [self le_loadFromNib];
 }
 
 @end

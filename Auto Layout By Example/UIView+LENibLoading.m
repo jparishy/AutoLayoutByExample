@@ -10,29 +10,29 @@
 
 #import <objc/runtime.h>
 
-static void *FTLoadFromNibAlreadyLoadedKey = &FTLoadFromNibAlreadyLoadedKey;
+static void *LELoadFromNibAlreadyLoadedKey = &LELoadFromNibAlreadyLoadedKey;
 
 @implementation UIView (LENibLoading)
 
-- (void)ft_setAlreadyLoadedFromNib
+- (void)le_setAlreadyLoadedFromNib
 {
-    objc_setAssociatedObject(self, FTLoadFromNibAlreadyLoadedKey, @YES, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, LELoadFromNibAlreadyLoadedKey, @YES, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (BOOL)ft_alreadyLoadedFromNib
+- (BOOL)le_alreadyLoadedFromNib
 {
-    NSNumber *loaded = objc_getAssociatedObject(self, FTLoadFromNibAlreadyLoadedKey);
+    NSNumber *loaded = objc_getAssociatedObject(self, LELoadFromNibAlreadyLoadedKey);
     return (loaded != nil);
 }
 
-- (void)ft_loadFromNib
+- (void)le_loadFromNib
 {
-    [self ft_loadFromNibWithNibName:nil bundle:nil];
+    [self le_loadFromNibWithNibName:nil bundle:nil];
 }
 
-- (void)ft_loadFromNibWithNibName:(NSString *)name bundle:(NSBundle *)bundle
+- (void)le_loadFromNibWithNibName:(NSString *)name bundle:(NSBundle *)bundle
 {
-    if(![self ft_alreadyLoadedFromNib])
+    if(![self le_alreadyLoadedFromNib])
     {
         NSString *nibName = name ?: NSStringFromClass([self class]);
         NSBundle *nibBundle = bundle ?: [NSBundle mainBundle];
@@ -54,7 +54,7 @@ static void *FTLoadFromNibAlreadyLoadedKey = &FTLoadFromNibAlreadyLoadedKey;
             [self copySubviewsFromView:view toView:self];
         }
         
-        [self ft_setAlreadyLoadedFromNib];
+        [self le_setAlreadyLoadedFromNib];
     }
 }
 
