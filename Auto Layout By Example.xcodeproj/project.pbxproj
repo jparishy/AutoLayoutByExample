@@ -28,6 +28,7 @@
 		E8DE1F8E1911AFF700F56FAC /* LESocialMediaPostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DE1F8D1911AFF700F56FAC /* LESocialMediaPostView.xib */; };
 		E8DE1F911911B12000F56FAC /* UIView+LENibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DE1F901911B12000F56FAC /* UIView+LENibLoading.m */; };
 		E8DE1F941911B3A300F56FAC /* LENibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DE1F931911B3A300F56FAC /* LENibLoadedView.m */; };
+		E8DE1F9D1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DE1F9C1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		E8DE1F901911B12000F56FAC /* UIView+LENibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LENibLoading.m"; sourceTree = "<group>"; };
 		E8DE1F921911B3A300F56FAC /* LENibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENibLoadedView.h; sourceTree = "<group>"; };
 		E8DE1F931911B3A300F56FAC /* LENibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LENibLoadedView.m; sourceTree = "<group>"; };
+		E8DE1F9B1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAutoLayoutFixedLabel.h; sourceTree = "<group>"; };
+		E8DE1F9C1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAutoLayoutFixedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 				E8DE1F901911B12000F56FAC /* UIView+LENibLoading.m */,
 				E8DE1F921911B3A300F56FAC /* LENibLoadedView.h */,
 				E8DE1F931911B3A300F56FAC /* LENibLoadedView.m */,
+				E8DE1F9B1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.h */,
+				E8DE1F9C1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.m */,
 			);
 			path = "Auto Layout By Example";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8691D4C19119EC300646D89 /* LEAutoExpandingTextView.m in Sources */,
+				E8DE1F9D1911BD5D00F56FAC /* LEAutoLayoutFixedLabel.m in Sources */,
 				E8DE1F8C1911AFE700F56FAC /* LESocialMediaPostView.m in Sources */,
 				E828DC0F1911707600B75319 /* LEMasterViewController.m in Sources */,
 				E8DE1F941911B3A300F56FAC /* LENibLoadedView.m in Sources */,
