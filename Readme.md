@@ -1,32 +1,34 @@
 # Auto Layout by Example
 ## A collection of Auto Layout examples
 
+The goal was to use as little code as possible. Most layout is done in Interface Builder. Also includes a category on UIView for loading from a nib.
+
 ### Examples
 
 #### Fill Parent
-![http://i.imgur.com/r7xIJrV.png](Portrait)
-![http://i.imgur.com/rK5z8Qe.png](Landscape)
+![Portrait](http://i.imgur.com/r7xIJrV.png)
+![Landscape](http://i.imgur.com/rK5z8Qe.png)
 
 #### Half and Half
-![http://i.imgur.com/icoD4F8.png](Portrait)
-![http://i.imgur.com/XtpC3uH.png](Landscape)
+![Portrait](http://i.imgur.com/icoD4F8.png)
+![Landscape](http://i.imgur.com/XtpC3uH.png)
 
 #### Half and Half/Side to Side
-![http://i.imgur.com/BYDuF0G.png](Portrait)
-![http://i.imgur.com/Lacrl8W.png](Landscape)
+![Portrait](http://i.imgur.com/BYDuF0G.png)
+![Landscape](http://i.imgur.com/Lacrl8W.png)
 
 #### Constant Height Header
-![http://i.imgur.com/3eS2Z4A.png](Portrait)
-![http://i.imgur.com/oIqMlyn.png](Landscape)
+![Portrait](http://i.imgur.com/3eS2Z4A.png)
+![Landscape](http://i.imgur.com/oIqMlyn.png)
 
 #### Proportional Height Header
-![http://i.imgur.com/t1sTdPd.png](Portrait)
-![http://i.imgur.com/LQ8NlLK.png](Landscape)
+![Portrait](http://i.imgur.com/t1sTdPd.png)
+![Landscape](http://i.imgur.com/LQ8NlLK.png)
 
 #### Auto Expanding Text View
-![http://i.imgur.com/68gzWy9.png](Portrait)
-![http://i.imgur.com/9y39DiR.png](Landscape)
+![Portrait](http://i.imgur.com/68gzWy9.png)
+![Landscape](http://i.imgur.com/9y39DiR.png)
 
 #### Social Media Profile
-![http://i.imgur.com/j7H2sTS.png](Portrait)
-![http://i.imgur.com/E14Xv32.png](Landscape)
+![Portrait](http://i.imgur.com/j7H2sTS.png)
+![Landscape](http://i.imgur.com/E14Xv32.png)
